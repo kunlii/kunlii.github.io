@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Kun Li / kunli@sdu.edu.cn"
+title                    : "Kun Li / Personal Page"
 title_separator          : "-"
 name                     : &name "Kun Li"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Kun Li (李琨)"
   pronouns         : # example: "she/her"  
-  bio              : #
+  bio              : "Assistant Professor at School of Computer Science and Technology, Shandong University"
   location         : "China"
   employer         : "Shandong University"
   uri              : # URL
