@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Kun Li / Academic Pages"
+title                    : "Kun Li / Homepage"
 title_separator          : "-"
 name                     : &name "Kun Li"
 description              : &description "personal description"
