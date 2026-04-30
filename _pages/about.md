@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  School of Computer Science and Technology, Shandong University.
+  <a href='mailto:kunli@sdu.edu.cn'>kunli@sdu.edu.cn</a>
 
 profile:
   align: right
