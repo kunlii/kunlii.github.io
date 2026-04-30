@@ -445,10 +445,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-dataset-ownership-in-the-era-of-large-language-models-was-accepted-by-bwtac-2025",
+            },},{id: "news-dataset-ownership-in-the-era-of-large-language-models-was-accepted-by-bwtac-2025",
           title: 'Dataset Ownership in the Era of Large Language Models was accepted by BWTAC...',
           description: "",
           section: "News",},{id: "projects-project-1",
