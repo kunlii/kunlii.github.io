@@ -9,7 +9,7 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>N3-321-2</p>
     <p>Shandong University (Qingdao Campus), 72 Binhai Road, Jimo</p>
