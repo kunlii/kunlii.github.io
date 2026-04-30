@@ -448,9 +448,9 @@ ninja.data = [{
             },},{id: "news-dataset-ownership-in-the-era-of-large-language-models-was-accepted-by-bwtac-2025",
           title: 'Dataset Ownership in the Era of Large Language Models was accepted by BWTAC...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-面向数据资产的可信流通技术研究",
+          title: '面向数据资产的可信流通技术研究',
+          description: "国家自然科学基金青年科学基金",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
