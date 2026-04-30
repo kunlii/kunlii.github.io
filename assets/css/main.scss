@@ -37,3 +37,144 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+// 隐藏顶部导航栏（侧边栏已有导航）
+body.about-page .navbar {
+  display: none;
+}
+
+// 整体两栏布局
+.about-layout {
+  display: flex;
+  gap: 3.5rem;
+  max-width: 960px;
+  margin: 3rem auto 4rem;
+  padding: 0 1.5rem;
+  align-items: flex-start;
+}
+
+// 左侧边栏
+.about-sidebar {
+  width: 200px;
+  min-width: 200px;
+  position: sticky;
+  top: 2rem;
+
+  .sidebar-photo {
+    margin-bottom: 1.2rem;
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .sidebar-identity {
+    margin-bottom: 1.2rem;
+    h1 {
+      font-size: 1.25rem;
+      margin-bottom: 0.4rem;
+      line-height: 1.3;
+    }
+    .sidebar-subtitle {
+      font-size: 0.78rem;
+      color: var(--global-text-color-light);
+      line-height: 1.6;
+      a { color: var(--global-theme-color); }
+    }
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 0.8rem 0;
+    margin-bottom: 1.2rem;
+
+    a {
+      font-size: 0.85rem;
+      color: var(--global-text-color-light);
+      text-decoration: none;
+      padding: 0.3rem 0;
+      transition: color 0.15s;
+      &:hover { color: var(--global-text-color); }
+      &.active {
+        color: var(--global-theme-color);
+        font-weight: 500;
+      }
+    }
+  }
+
+  .sidebar-social {
+    .contact-icons {
+      font-size: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      a { margin: 0; }
+    }
+    .contact-note { display: none; }
+  }
+}
+
+// 右侧主内容
+.about-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-bio {
+  margin-bottom: 2.5rem;
+  p { line-height: 1.8; }
+}
+
+.about-section {
+  margin-bottom: 2.5rem;
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--global-text-color-light);
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+}
+
+// Research interests 标签
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  .tag {
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    border-radius: 4px;
+    padding: 3px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+// 教育/工作经历列表
+.cv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .cv-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+    .cv-item-title { font-size: 0.9rem; font-weight: 500; margin: 0; }
+    .cv-item-sub { font-size: 0.82rem; color: var(--global-text-color-light); margin: 2px 0 0; }
+    .cv-item-year { font-size: 0.78rem; color: var(--global-text-color-light); white-space: nowrap; }
+  }
+}
+
+// 响应式
+@media (max-width: 768px) {
+  .about-layout { flex-direction: column; }
+  .about-sidebar { width: 100%; min-width: unset; position: static; }
+}
