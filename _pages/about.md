@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I received the Ph. D. degree in 2023 from School of Artificial Intelligence, Beijing Normal University, under the supervision of Professor Shengling Wang. Now, I am an Assistant Professor at Shandong University. My research interests include data elements, blockchain, game theory and mobile computing.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My principal research interests lie in distributed computing and network game theory. I focus on three research topics as follows. 1) Security control in distributed computing: focus on malicious behavior of nodes in distributed computing (withholding of information, misrepresentation and complicity); 2) Resource allocation in mobile computing: focus on spatial distribution characteristics in mobile computing scenarios and design of resource allocation schemes. Besides, I have been involved in a number of topics related to blockchain teaching and AI education. One of the most representative achievements is MoveCastle, which has attracted great attention from blockchain enthusiasts and researchers at home and abroad. In just one month in March 2020, more than 1.38 million people from over 100 countries visited and studied the course, and it was recommended by People's Daily Overseas Edition, Reuters and more than a dozen industry media reports.
