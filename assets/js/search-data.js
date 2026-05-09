@@ -403,9 +403,9 @@ ninja.data = [{
           description: "国家自然科学基金青年科学基金",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-面向qid的可信数据空间技术研究及应用",
+          title: '面向QID的可信数据空间技术研究及应用',
+          description: "横向",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
