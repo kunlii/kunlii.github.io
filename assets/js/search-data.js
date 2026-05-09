@@ -413,16 +413,21 @@ ninja.data = [{
           description: "山东省重点研发计划（竞争性创新平台）-课题负责人",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "teachings-概率论与数理统计",
+          title: '概率论与数理统计',
+          description: "面向计算机学院大二学生的概率论与数理统计课程，旨在让学生学习概率论和统计学的基础知识。",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/%E6%A6%82%E7%8E%87%E8%AE%BA/";
+            },},{id: "teachings-网络安全",
+          title: '网络安全',
+          description: "面向青岛地铁员工培训，主要讲解网络安全相关基础知识。",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/";
             },},{id: "teachings-计算思维",
           title: '计算思维',
           description: "面向生科大一学生授课的计算机通识课程，主要讲解计算机软硬件基础知识、算法数据结构基础知识、统计学与计算前沿和R语言基础知识。",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4/";
             },},{
         id: 'social-cv',
         title: 'CV',
