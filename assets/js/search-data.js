@@ -408,9 +408,9 @@ ninja.data = [{
           description: "横向",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-面向工业互联网的可信数据空间技术与应用",
+          title: '面向工业互联网的可信数据空间技术与应用',
+          description: "山东省重点研发计划（竞争性创新平台）-课题负责人",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
