@@ -3,7 +3,6 @@ layout: page
 title: 面向工业互联网的可信数据空间技术与应用
 description: 山东省重点研发计划（竞争性创新平台）-课题负责人
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
