@@ -413,9 +413,9 @@ ninja.data = [{
           description: "山东省重点研发计划（竞争性创新平台）-课题负责人",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-计算思维",
+          title: '计算思维',
+          description: "面向生科大一学生授课的计算机通识课程，主要讲解计算机软硬件基础知识、算法数据结构基础知识、统计学与计算前沿和R语言基础知识。",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
