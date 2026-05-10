@@ -4,7 +4,7 @@ cv:
   email: kunli@sdu.edu.cn
   location: Shandong, China
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: 山东大学计算机科学与技术学院助理教授，博士毕业于北京师范大学人工智能学院，研究方向包括数据要素、AI安全、区块链与博弈论。
 
   # social_networks:
   #   - network: X
@@ -30,11 +30,9 @@ cv:
         studyType: 硕博连读
         start_date: 2017
         end_date: 2023
-        score: ""
-        courses: "众包和博弈论"
         highlights:
-          - Description 1.
-          - Description 2.
+          - 众包.
+          - 博弈论.
 
       - institution: 北京师范大学
         location: 北京，中国
@@ -42,20 +40,19 @@ cv:
         studyType: 本科
         start_date: 2013
         end_date: 2017
-        highlights:
-          - Description 1.
-          - Description 2.
 
     Experience:
       - company: 计算机科学与技术学院, 山东大学
         position: 助理教授
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        location: 青岛, 山东, 中国
+        start_date: 2024
+        end_date: 至今
+        summary: 在山东大学计算机科学与技术学院担任助理教授，从事数据要素相关研究。
         highlights:
-          - Relativity
-          - Description 2.
+          - 数据要素
+          - AI安全
+          - 区块链
+          - 博弈论
 
     # Volunteer:
     #   - company: People's Climate March
@@ -71,11 +68,10 @@ cv:
     Awards:
       - title: BWTAC2024 论文激励计划
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Kun Li, Guangpeng Qi, Guangyong Shang, Wanli Deng, Minghui Xu, Xiuzhen Cheng"
+        date: 2024-11-05
+        awarder: BWTAC2024会务组
+        summary: 论文获BWTAC2024论文激励计划。
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
@@ -137,7 +133,7 @@ cv:
     #     icon: fa-solid fa-envelope
 
     Projects:
-      - name: Quantum Computing
+      - name: 面向工业互联网的可信数据流通技术研究
         summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
         highlights:
           - Quantum Teleportation
