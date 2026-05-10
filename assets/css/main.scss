@@ -98,3 +98,11 @@
   .about-layout { flex-direction: column; }
   .about-sidebar { width: 100%; min-width: unset; position: static; }
 }
+// 自定义：缩小首页个人照片
+.profile {
+  width: 180px !important;  // 可以调整这个数值
+
+  img {
+    width: 100% !important;
+  }
+}
