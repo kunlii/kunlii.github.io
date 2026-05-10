@@ -77,7 +77,7 @@ cv:
         releaseDate: 2019
         summary: CCF-B类期刊，影响因子3.2。提出了一种基于说服博弈的众包评估方法，能够提高众包任务的质量和效率。
 
-      - title: A Treatment of EIP-1559: Enhancing Transaction Fee Mechanism Through N^th-Price Auction
+      - title: "A Treatment of EIP-1559: Enhancing Transaction Fee Mechanism Through N^th-Price Auction"
         authors:
           - Kun Li, Guangpeng Qi, Guangyong Shang, and Wanli Deng, Minghui Xu, Xiuzhen Cheng
         publisher: BWTAC2024
