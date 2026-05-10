@@ -101,11 +101,11 @@
 
 // 固定 profile 右栏宽度，防止地址文字溢出
 .profile {
-  width: 200px !important;      // 固定右栏宽度，可按需调整
+  width: 250px !important;      // 固定右栏宽度，可按需调整
   flex-shrink: 0 !important;    // 防止左侧文字挤压时右栏收缩
 
   img {
-    width: 150px !important;    // 照片大小，可按需调整
+    width: 200px !important;    // 照片大小，可按需调整
     display: block;
     margin: 0 auto 0.5rem;
   }
