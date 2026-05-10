@@ -46,7 +46,7 @@ cv:
         position: 助理教授
         location: 青岛, 山东, 中国
         start_date: 2024
-        end_date: 至今
+        end_date: present
         summary: 在山东大学计算机科学与技术学院担任助理教授，从事数据要素相关研究。
         highlights:
           - 数据要素
