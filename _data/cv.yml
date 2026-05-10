@@ -1,10 +1,10 @@
 cv:
   name: 李琨 (Kun Li)
-  label: 助理教授 (Assistant Professor)
+  label: Assistant Professor
   email: kunli@sdu.edu.cn
   location: Shandong, China
-  image: ""
-  summary: 山东大学计算机科学与技术学院助理教授，博士毕业于北京师范大学人工智能学院，研究方向包括数据要素、AI安全、区块链与博弈论。
+  image: assets/img/prof_pic.jpg
+  summary: Assistant Professor at the School of Computer Science and Technology, Shandong University. Ph.D. from the School of Artificial Intelligence, Beijing Normal University. Research interests include data elements, AI security, blockchain, and game theory.
 
   # social_networks:
   #   - network: X
