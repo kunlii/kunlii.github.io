@@ -58,7 +58,7 @@ cv:
       - title: BWTAC2024 论文激励计划
         authors:
           - "Kun Li, Guangpeng Qi,Guangyong Shang, Wanli Deng, Minghui Xu, Xiuzhen Cheng"
-        date: 2024-11-07
+        date: "2024-11-07"
         awarder: BWTAC2024大会组委会
         summary: 经组委会专家评审，推荐由论文作者(Kun Li, Guangpeng Qi, Guangyong Shang,Wanli Deng, Minghui Xu and Xiuzhen Cheng) 撰写的论文名称A Treatment of EIP-1559:Enhancing Transaction Fee Mechanism through Nth-Price Auction (论文编号010), 进入“BWTAC2024论文激励计划”。
 
@@ -67,21 +67,21 @@ cv:
         authors:
           - Kun Li, Shengling Wang, Xiuzhen Cheng, and Qin Hu
         publisher: IEEE TMC
-        releaseDate: 2022
+        releaseDate: "2022"
         summary: CCF-A类期刊，影响因子6.2。提出了一种新的众包机制，能够在没有质量验证的情况下防止虚假报告和串通行为。
 
       - title: Crowdsourcee evaluation based on persuasion game
         authors:
           - Kun Li, Shengling Wang, and Xiuzhen Cheng 
         publisher: Computer Networks
-        releaseDate: 2019
+        releaseDate: "2019"
         summary: CCF-B类期刊，影响因子3.2。提出了一种基于说服博弈的众包评估方法，能够提高众包任务的质量和效率。
 
       - title: "A Treatment of EIP-1559: Enhancing Transaction Fee Mechanism Through N^th-Price Auction"
         authors:
           - Kun Li, Guangpeng Qi, Guangyong Shang, and Wanli Deng, Minghui Xu, Xiuzhen Cheng
         publisher: BWTAC2024
-        releaseDate: 2024
+        releaseDate: "2024"
         summary: EI会议，提出了一种新的交易费用机制，基于N次价格拍卖，旨在提高以太坊网络的效率和公平性。
 
     # Skills:
