@@ -42,7 +42,6 @@ cv:
           - 数据要素
           - AI安全
           - 区块链
-          - 博弈论
 
     # Volunteer:
     #   - company: People's Climate March
@@ -58,36 +57,32 @@ cv:
     Awards:
       - title: BWTAC2024 论文激励计划
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Kun Li, Guangpeng Qi,Guangyong Shang, Wanli Deng, Minghui Xu, Xiuzhen Cheng"
+        date: 2024-11-07
+        awarder: BWTAC2024大会组委会
+        summary: 经组委会专家评审，推荐由论文作者(Kun Li, Guangpeng Qi, Guangyong Shang,Wanli Deng, Minghui Xu and Xiuzhen Cheng) 撰写的论文名称A Treatment of EIP-1559:Enhancing Transaction Fee Mechanism through Nth-Price Auction (论文编号010), 进入“BWTAC2024论文激励计划”。
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: A Misreport- and Collusion-Proof Crowdsourcing Mechanism Without Quality Verification
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Kun Li, Shengling Wang, Xiuzhen Cheng, and Qin Hu
+        publisher: IEEE TMC
+        releaseDate: 2022
+        summary: CCF-A类期刊，影响因子6.2。提出了一种新的众包机制，能够在没有质量验证的情况下防止虚假报告和串通行为。
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Crowdsourcee evaluation based on persuasion game
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Kun Li, Shengling Wang, and Xiuzhen Cheng 
+        publisher: Computer Networks
+        releaseDate: 2019
+        summary: CCF-B类期刊，影响因子3.2。提出了一种基于说服博弈的众包评估方法，能够提高众包任务的质量和效率。
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: A Treatment of EIP-1559: Enhancing Transaction Fee Mechanism Through N^th-Price Auction
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Kun Li, Guangpeng Qi, Guangyong Shang, and Wanli Deng, Minghui Xu, Xiuzhen Cheng
+        publisher: BWTAC2024
+        releaseDate: 2024
+        summary: EI会议，提出了一种新的交易费用机制，基于N次价格拍卖，旨在提高以太坊网络的效率和公平性。
 
     # Skills:
     #   - name: Physics
@@ -124,13 +119,30 @@ cv:
     #     icon: fa-solid fa-envelope
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: 面向数据资产的可信流通技术研究（主持，项目负责人）
+        summary: 针对这些挑战，本课题围绕“可信远程评估”、“真实高效定价”和“稳定费率机制”这三个核心问题展开研究，引入隐私计算技术、博弈论等方法，以期设计高效可信的数据资产评估与交易机制，促进数据开放共享和可信流通，支持数字经济发展。
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - 国家自然科学基金项目
+          - 数据要素
+        start_date: 2025-01-01
+        end_date: 2027-12-31
+      
+      - name: 面向QID的可信数据空间技术研究及应用（参与，课题负责人）
+        summary: 研究可信工业数据空间下的数据评估与交易技术、工可信工业数据空间下的数据可信计算与流通技术。
+        highlights:
+          - 横向
+          - 数据要素
+        start_date: 2024-01-01
+        end_date: 2026-12-31
+
+      - name: 面向工业互联网的可信数据空间技术与应用（参与，课题负责人）
+        summary: 本项目将构建覆盖数据全生命周期的“可信数据空间技术体系”，通过三大关键技术方向实现突破:一是基于动态规则库与Shapley值优化算法的数据质量评估体系，实现数据治理从人工经验向自动化、标准化转变;二是集成可信执行环境、安全多方计算等技术，设计跨域隐私计算框架，平衡数据流通的安全性与实时性;三是基于安全多方计算、同态加密、可信执行环境等技术，研制面向工业互联网数据的人工智能模型隐私推断技术。
+        highlights:
+          - 山东省重点研发计划（竞争性创新平台）
+          - 数据要素
+        start_date: 2026-07-01
+        end_date: 2028-12-31
+
 
     # References:
     #   - name: Professor John Doe
