@@ -18,7 +18,7 @@
   --global-footer-link-color: #{v.$white-color};
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
+  --global-card-bg-color: rgba(255, 255, 255, 0.75);
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
@@ -45,11 +45,14 @@
   
   background-color: #f0f4f8;
   background-image: 
-    radial-gradient(at 10% 10%, rgba(165, 216, 255, 0.4) 0px, transparent 50%), // 左上角的浅蓝
-    radial-gradient(at 90% 90%, rgba(182, 244, 222, 0.4) 0px, transparent 50%), // 右下角的薄荷绿
-    radial-gradient(at 50% 50%, rgba(255, 255, 255, 0.8) 0px, transparent 60%); // 中间的柔白光晕
+    radial-gradient(at 10% 10%, rgba(165, 216, 255, 0.4) 0px, transparent 50%),
+    radial-gradient(at 90% 90%, rgba(182, 244, 222, 0.4) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(255, 255, 255, 0.8) 0px, transparent 60%);
   background-attachment: fixed;
   min-height: 100vh;
+
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
 
   #light-toggle-system {
     display: inline-block;
