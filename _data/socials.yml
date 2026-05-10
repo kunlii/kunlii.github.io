@@ -9,6 +9,6 @@ email: kunli@sdu.edu.cn # your email address
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: /assets/img/sdu.png # can be png, svg, jpg
+  logo: https://raw.githubusercontent.com/kunlii/kunlii.github.io/main/assets/img/sdu.png
   title: Shandong University
   url: https://www.sdu.edu.cn/
