@@ -98,11 +98,25 @@
   .about-layout { flex-direction: column; }
   .about-sidebar { width: 100%; min-width: unset; position: static; }
 }
-// 自定义：缩小首页个人照片
+
+// 固定 profile 右栏宽度，防止地址文字溢出
 .profile {
-  width: 100px !important;  // 可以调整这个数值
+  width: 200px !important;      // 固定右栏宽度，可按需调整
+  flex-shrink: 0 !important;    // 防止左侧文字挤压时右栏收缩
 
   img {
-    width: 100% !important;
+    width: 150px !important;    // 照片大小，可按需调整
+    display: block;
+    margin: 0 auto 0.5rem;
+  }
+
+  // 地址文字强制在栏内换行
+  .more-info p,
+  address,
+  p {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal !important;
+    font-size: 0.78rem;         // 可选：稍微缩小字号
   }
 }
