@@ -87,6 +87,8 @@ cv:
 
     Awards:
       - title: Nobel Prize in Physics
+        authors:
+          - "Royal Swedish Academy of Sciences"
         date: 1921-11-01
         awarder: Royal Swedish Academy of Sciences
         url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
