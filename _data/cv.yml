@@ -1,8 +1,8 @@
 cv:
-  name: 李琨 (Kun Li)
+  name: Kun Li
   label: Assistant Professor
   email: kunli@sdu.edu.cn
-  location: Shandong, China
+  #location: Shandong, China
   image: assets/img/prof_pic.jpg
   summary: Assistant Professor at the School of Computer Science and Technology, Shandong University. Ph.D. from the School of Artificial Intelligence, Beijing Normal University. Research interests include data elements, AI security, blockchain, and game theory.
 
