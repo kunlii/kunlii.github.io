@@ -167,8 +167,7 @@
   align-items: flex-end;
   img {
     width: 148px;
-    height: 148px;
-    object-fit: cover;
+    height: auto;
     border-radius: 4px;
   }
 }
@@ -282,4 +281,31 @@
   font-family: monospace;
   white-space: nowrap;
   margin-left: 1rem;
+}
+.badge-pill, .badge {
+  background-color: #0f6e56 !important;
+  color: #fff !important;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.about-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 1.2rem;
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #0f6e56;
+  border: 1px solid #0f6e56;
+  padding: 6px 14px;
+  border-radius: 2px;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  &:hover {
+    background: #0f6e56;
+    color: #fff;
+    transition: background 0.15s;
+  }
 }

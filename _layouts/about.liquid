@@ -13,9 +13,9 @@ layout: default
         {% endif %}
       </h1>
       <p class="about-affil">
-        School of Computer Science and Technology<br>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        School of Computer Science and Technology, Shandong University
       </p>
+      <a href="mailto:{{ site.email }}" class="about-email">✉ {{ site.email }}</a>
     </div>
     <div class="about-hero-photo">
       {% if page.profile and page.profile.image %}
@@ -48,9 +48,9 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+      <div class="section-label">
+        <span><a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">News</a></span>
+      </div>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -64,9 +64,9 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <div class="section-label">
+        <span><a href="{{ '/publications/' | relative_url }}" style="color: inherit; text-decoration: none;">Selected Publications</a></span>
+      </div>
       {% include selected_papers.liquid %}
     {% endif %}
 
