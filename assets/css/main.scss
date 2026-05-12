@@ -316,3 +316,57 @@
 .interest-tags .tag {
   background-color: transparent !important;
 }
+.post-title {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+.category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.35;
+}
+.courses {
+  h2.year {
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1.2rem;
+    font-family: 'Instrument Sans', sans-serif;
+  }
+
+  .course-item {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    &:first-child { border-top: 1px solid var(--global-divider-color); }
+  }
+
+  .course-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 0 4px;
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      &:hover { color: var(--global-theme-color); }
+    }
+  }
+
+  .course-meta {
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+  }
+
+  .course-description {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin-top: 4px;
+    line-height: 1.6;
+  }
+}
