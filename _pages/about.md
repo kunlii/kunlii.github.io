@@ -9,7 +9,7 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>N3-321-2</p>
     <p>Shandong University (Qingdao Campus), 72 Binhai Road, Jimo</p>
@@ -29,18 +29,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I received the Ph. D. degree in 2023 from School of Artificial Intelligence, Beijing Normal University, under the supervision of Professor Shengling Wang. Now, I am an Assistant Professor at Shandong University. My research interests include data elements, blockchain, game theory and mobile computing.
-
-My principal research interests lie in distributed computing and network game theory. I focus on three research topics as follows. 1) Security control in distributed computing: focus on malicious behavior of nodes in distributed computing (withholding of information, misrepresentation and complicity); 2) Resource allocation in mobile computing: focus on spatial distribution characteristics in mobile computing scenarios and design of resource allocation schemes. Besides, I have been involved in a number of topics related to blockchain teaching and AI education. One of the most representative achievements is MoveCastle, which has attracted great attention from blockchain enthusiasts and researchers at home and abroad. In just one month in March 2020, more than 1.38 million people from over 100 countries visited and studied the course, and it was recommended by People's Daily Overseas Edition, Reuters and more than a dozen industry media reports.
+李琨，山东大学计算机科学与技术学院助理教授，博士毕业于北京师范大学，研究方向包括数据要素、AI安全、博弈论、区块链等。近五年来在IEEE TMC等国际顶级期刊发表了多篇相关论文，获BWTAC2024论文激励计划奖，主持国自然青年科学基金1项、山东省青年科学基金1项，参与国家重点研发计划、国家自然科学基金等在内的多个科研项目，担任IEEE TMC、IEEE Infocom、HCC、JWCN、WASA等多个期刊和会议的审稿工作。
 
 <section class="about-section">
   <h2>Research Interests</h2>
   <div class="interest-tags">
-    <span class="tag">Distributed Computing</span>
-    <span class="tag">Network Game Theory</span>
+    <span class="tag">Data Elements</span>
+    <span class="tag">AI Security</span>
+    <span class="tag">Game Theory</span>
     <span class="tag">Blockchain</span>
     <span class="tag">Mobile Computing</span>
-    <span class="tag">AI Education</span>
   </div>
 </section>
 

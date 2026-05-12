@@ -106,6 +106,9 @@
 
   img {
     width: 200px !important;    // 照片大小，可按需调整
+    height: 200px !important;   // 新增，强制正方形
+    object-fit: cover;          // 新增，裁剪填满不拉伸
+    object-position: center top; // 新增，脸部居中偏上裁剪
     display: block;
     margin: 0 auto 0.5rem;
   }
