@@ -143,7 +143,7 @@
   font-size: 0.68rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #0f6e56;
+  color: var(--global-theme-color);
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -154,12 +154,12 @@
   letter-spacing: -0.04em;
   font-weight: 400;
   margin-bottom: 1.2rem;
-  em { font-style: italic; color: #0f6e56; }
+  em { font-style: italic; color: var(--global-theme-color); }
 }
 .about-affil {
   font-size: 0.85rem;
   line-height: 1.75;
-  a { color: #0f6e56; text-decoration: none; }
+  a { color: var(--global-theme-color); text-decoration: none; }
 }
 .about-hero-photo {
   display: flex;
@@ -283,7 +283,7 @@
   margin-left: 1rem;
 }
 .badge-pill, .badge {
-  background-color: #0f6e56 !important;
+  background-color: var(--global-theme-color) !important;
   color: #fff !important;
   font-size: 0.62rem;
   letter-spacing: 0.06em;
@@ -297,14 +297,14 @@
   margin-top: 1.2rem;
   font-family: monospace;
   font-size: 0.75rem;
-  color: #0f6e56;
-  border: 1px solid #0f6e56;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
   padding: 6px 14px;
   border-radius: 2px;
   text-decoration: none;
   letter-spacing: 0.04em;
   &:hover {
-    background: #0f6e56;
+    background: var(--global-theme-color);
     color: #fff;
     transition: background 0.15s;
   }

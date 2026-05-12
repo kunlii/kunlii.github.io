@@ -10,8 +10,8 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-theme-color: #185fa5;
+  --global-hover-color: #185fa5;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -43,11 +43,8 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
   
-  background-color: #f0f4f8;
-  background-image: 
-    radial-gradient(at 10% 10%, rgba(165, 216, 255, 0.4) 0px, transparent 50%),
-    radial-gradient(at 90% 90%, rgba(182, 244, 222, 0.4) 0px, transparent 50%),
-    radial-gradient(at 50% 50%, rgba(255, 255, 255, 0.8) 0px, transparent 60%);
+  background-color: #f7f5f0;
+  background-image: none;
   background-attachment: fixed;
   min-height: 100vh;
 
@@ -91,8 +88,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-theme-color: #85b7eb;
+  --global-hover-color: #85b7eb;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};
