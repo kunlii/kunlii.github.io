@@ -243,15 +243,18 @@
 .interest-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-}
-.interest-tags .tag {
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  padding: 5px 14px;
-  border: 1px solid var(--global-text-color);
-  border-radius: 2px;
-  font-weight: 500;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  .tag {
+    background: transparent;
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    border-radius: 2px;
+    padding: 5px 14px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+  }
 }
 .cv-list {
   display: flex;
