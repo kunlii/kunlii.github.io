@@ -7,6 +7,7 @@ first_name: Kun
 middle_name: 
 last_name: Li
 contact_note: kunli@sdu.edu.cn
+email: kunli@sdu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Assistant Professor in the School of Computer Science and Technology at Shandong University.
 footer_text: >
