@@ -123,3 +123,9 @@
     font-size: 0.78rem;         // 可选：稍微缩小字号
   }
 }
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
