@@ -129,3 +129,86 @@
   font-size: 0.7rem;
   font-weight: 600;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+.about-hero {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 2rem;
+  align-items: start;
+  padding-bottom: 1.5rem;
+}
+.about-eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #0f6e56;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.about-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 4.2rem;
+  line-height: 0.88;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  em { font-style: italic; color: #0f6e56; }
+}
+.about-affil {
+  font-size: 0.85rem;
+  line-height: 1.75;
+  a { color: #0f6e56; text-decoration: none; }
+}
+.about-hero-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  img {
+    width: 148px;
+    height: 148px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+}
+.about-address {
+  margin-top: 0.75rem;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.7;
+  opacity: 0.6;
+}
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 0 2rem;
+}
+.stat-cell {
+  padding: 1.2rem 1.5rem;
+  border-right: 1px solid var(--global-divider-color);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  &:last-child { border-right: none; }
+}
+.stat-n {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+.stat-l {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.55;
+}
+
+@media (max-width: 600px) {
+  .about-hero { grid-template-columns: 1fr; }
+  .about-hero-photo { align-items: flex-start; }
+  .about-name { font-size: 3rem; }
+}

@@ -2,16 +2,30 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+  <header class="post-header about-hero">
+    <div class="about-hero-text">
+      <p class="about-eyebrow">Assistant Professor · Shandong University</p>
+      <h1 class="about-name">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }}<br><em>{{ site.last_name }}</em>
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="about-affil">
+        School of Computer Science and Technology<br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </p>
+    </div>
+    <div class="about-hero-photo">
+      {% if page.profile and page.profile.image %}
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        <img src="{{ profile_image_path | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}">
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+      {% if page.profile and page.profile.more_info %}
+        <div class="about-address">{{ page.profile.more_info }}</div>
+      {% endif %}
+    </div>
   </header>
 
   <article>
@@ -37,6 +51,21 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
+
+    <div class="about-stats">
+      <div class="stat-cell">
+        <span class="stat-n">5+</span>
+        <span class="stat-l">Years research</span>
+      </div>
+      <div class="stat-cell">
+        <span class="stat-n">IEEE</span>
+        <span class="stat-l">TMC · Infocom</span>
+      </div>
+      <div class="stat-cell">
+        <span class="stat-n">2</span>
+        <span class="stat-l">Active grants</span>
+      </div>
+    </div>
 
     <div class="clearfix">{{ content }}</div>
 
