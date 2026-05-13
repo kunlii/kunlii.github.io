@@ -1,23 +1,26 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign courses_by_title = site.teachings | group_by: 'title' %}
-    {% for course_group in courses_by_title %}
+    {% for course in site.teachings %}
       <div class="course-item">
-        <h3 class="course-title">
-          <a href="{{ course_group.items.first.url | relative_url }}">{{ course_group.name }}</a>
-        </h3>
+        <div class="course-header">
+          <h3 class="course-title">
+            <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+          </h3>
+          {% if course.years.size > 1 %}
+            <span class="course-count">Taught {{ course.years.size }}×</span>
+          {% endif %}
+        </div>
         <div class="course-terms">
-          {% assign sorted_items = course_group.items | sort: 'year' | reverse %}
-          {% for item in sorted_items %}
+          {% assign sorted_years = course.years | sort | reverse %}
+          {% for year in sorted_years %}
             <span class="course-term-tag">
-              {% if item.term %}{{ item.term }}{% endif %}
-              {% if item.year %}{{ item.year }}{% endif %}
+              {% if course.term %}{{ course.term }} {% endif %}{{ year }}
             </span>
           {% endfor %}
         </div>
-        {% if course_group.items.first.description %}
+        {% if course.description %}
           <div class="course-description">
-            {{ course_group.items.first.description | markdownify }}
+            {{ course.description | markdownify }}
           </div>
         {% endif %}
       </div>
