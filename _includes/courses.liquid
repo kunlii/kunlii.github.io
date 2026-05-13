@@ -11,12 +11,14 @@
           {% endif %}
         </div>
         <div class="course-terms">
-          {% assign sorted_years = course.years | sort | reverse %}
-          {% for year in sorted_years %}
-            <span class="course-term-tag">
-              {% if course.term %}{{ course.term }} {% endif %}{{ year }}
-            </span>
-          {% endfor %}
+          {% if course.years %}
+            {% assign sorted_years = course.years | compact | sort | reverse %}
+            {% for year in sorted_years %}
+              <span class="course-term-tag">
+                {% if course.term %}{{ course.term }} {% endif %}{{ year }}
+              </span>
+            {% endfor %}
+          {% endif %}
         </div>
         {% if course.description %}
           <div class="course-description">
