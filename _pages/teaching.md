@@ -10,7 +10,7 @@ calendar: false
 
 <section class="about-section">
   <div class="section-label"><span>Current Students</span></div>
-  <table class="student-table">
+  <table class="student-table table-current">
     <thead>
       <tr>
         <th>Type</th>
@@ -44,7 +44,7 @@ calendar: false
 
 <section class="about-section">
   <div class="section-label"><span>Alumni</span></div>
-  <table class="student-table">
+  <table class="student-table table-alumni">
     <thead>
       <tr>
         <th>Type</th>
