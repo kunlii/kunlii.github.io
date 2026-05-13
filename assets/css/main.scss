@@ -413,21 +413,20 @@
   width: 100%;
   border-collapse: collapse;
   font-size: 0.82rem;
-  table-layout: fixed;
 
   th {
     font-size: 0.6rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--global-text-color-light);
+    color: var(--global-theme-color);
     font-weight: 600;
-    padding: 0 0 10px;
-    border-bottom: 2px solid var(--global-divider-color);
+    padding: 0 12px 10px 0;
+    border-bottom: 2px solid var(--global-theme-color);
     text-align: left;
   }
 
   td {
-    padding: 12px 0;
+    padding: 10px 12px 10px 0;
     border-bottom: 1px solid var(--global-divider-color);
     color: var(--global-text-color);
     vertical-align: middle;
@@ -436,39 +435,6 @@
   tr:last-child td {
     border-bottom: none;
   }
-
-  tr:hover td {
-    background: rgba(24, 95, 165, 0.03);
-  }
-
-  // Current students 列宽
-  &.table-current {
-    th:nth-child(1), td:nth-child(1) { width: 72px; }
-    th:nth-child(2), td:nth-child(2) { width: auto; }
-    th:nth-child(3), td:nth-child(3) { width: 160px; }
-    th:nth-child(4), td:nth-child(4) { width: 72px; text-align: right; }
-  }
-
-  // Alumni 列宽
-  &.table-alumni {
-    th:nth-child(1), td:nth-child(1) { width: 72px; }
-    th:nth-child(2), td:nth-child(2) { width: auto; }
-    th:nth-child(3), td:nth-child(3) { width: 160px; }
-    th:nth-child(4), td:nth-child(4) { width: 120px; }
-    th:nth-child(5), td:nth-child(5) { width: 60px; text-align: right; }
-  }
-}
-
-.student-degree {
-  display: inline-block;
-  font-size: 0.6rem;
-  letter-spacing: 0.06em;
-  font-weight: 600;
-  color: var(--global-text-color-light);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 2px;
-  padding: 1px 6px;
-  white-space: nowrap;
 }
 
 .student-pubs {
