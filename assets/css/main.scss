@@ -409,3 +409,54 @@
   margin-left: 6px;
   font-weight: 400;
 }
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+
+  th {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    font-weight: 600;
+    padding: 0 12px 10px 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    text-align: left;
+  }
+
+  td {
+    padding: 10px 12px 10px 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    vertical-align: middle;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.student-degree {
+  display: inline-block;
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 2px;
+  padding: 1px 6px;
+  white-space: nowrap;
+}
+
+.student-pubs {
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+}
+
+.student-year {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
