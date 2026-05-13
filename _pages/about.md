@@ -42,8 +42,12 @@ latest_posts:
 
 <section class="about-section">
   <div class="section-label"><span>Bio</span></div>
-  <p class="about-bio">李琨，现任山东大学计算机科学与技术学院助理教授，山东大学智能计算研究所及区块链与分布式安全实验室的成员，于2023年获得北京师范大学博士学位，长期致力于计算机科学前沿领域的交叉研究，主要关注数据要素、人工智能（AI）安全、博弈论以及区块链技术等方向，旨在通过严谨的理论建模与创新的技术方案解决分布式系统中的信任、激励与隐私保护等核心挑战。近五年来，我在相关领域取得了丰硕的科研成果，在包括IEEE TMC在内的国际顶级期刊和会议上发表了多篇高水平学术论文，并获BWTAC2024论文激励计划奖。在科研项目方面，我目前主持国家自然科学基金青年科学基金及山东省青年科学基金各1项，同时作为核心成员参与了国家重点研发计划等多项国家级、省部级重要科研任务。此外，我也积极投身学术服务，受邀担任IEEE TMC、IEEE Infocom、HCC、JWCN、WASA等多个权威期刊和会议的审稿工作，为推动本领域的学术发展贡献力量。</p>
-  <p class="about-bio">课题组常年招收对数据要素、AI安全、博弈论及区块链等领域抱有浓厚兴趣的硕士与博士研究生。如果你具备扎实的数学或计算机基础，拥有勇于探索的创新精神，并渴望在科研道路上深耕细作，我非常欢迎你加入我们的团队。</p>
+  <p class="about-bio">I am an Assistant Professor in the School of Computer Science and Technology at Shandong University, and a member of the Institute of Intelligent Computing and the Blockchain & Distributed Security Laboratory. I received my Ph.D. from Beijing Normal University in 2023. My research focuses on data elements, AI security, game theory, and blockchain, with the goal of addressing core challenges in distributed systems through rigorous theoretical modeling and innovative technical solutions. My work has been published in top venues including IEEE TMC, and I received the BWTAC 2024 Paper Incentive Award. I currently lead one NSFC Youth Fund project and one Shandong Province Youth Fund project, and serve as a reviewer for IEEE TMC, IEEE Infocom, HCC, JWCN, and WASA.</p>
+</section>
+
+<section class="about-section">
+  <div class="section-label"><span>Join Us</span></div>
+  <p class="about-bio">课题组常年招收对数据要素、AI安全、博弈论及区块链等领域抱有浓厚兴趣的硕士与博士研究生。如果你具备扎实的数学或计算机基础，拥有勇于探索的创新精神，并渴望在科研道路上深耕细作，欢迎联系我。</p>
 </section>
 
 <section class="about-section">
