@@ -345,17 +345,35 @@
     }
   }
 
-  .course-title {
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin: 0 0 10px;
-    a {
-      color: var(--global-text-color);
-      text-decoration: none;
-      &:hover { color: var(--global-theme-color); }
-    }
-  }
+   .course-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     margin-bottom: 6px;
+   }
+   
+   .course-count {
+     font-size: 0.62rem;
+     letter-spacing: 0.08em;
+     text-transform: uppercase;
+     color: var(--global-text-color-light);
+     font-family: monospace;
+     opacity: 0.6;
+     white-space: nowrap;
+     margin-left: 12px;
+   }
+
+   .course-title {
+     font-family: 'DM Serif Display', serif;
+     font-size: 1.1rem;
+     font-weight: 400;
+     margin: 0;
+     a {
+       color: var(--global-text-color);
+       text-decoration: none;
+       &:hover { color: var(--global-theme-color); }
+     }
+   }
 
   .course-terms {
     display: flex;
