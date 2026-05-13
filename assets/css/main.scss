@@ -329,27 +329,8 @@
   opacity: 0.35;
 }
 .courses {
-  h2.year {
-    font-size: 0.65rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--global-text-color-light);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-bottom: 0.5rem;
-    margin: 3rem 0 1.2rem;
-    font-family: 'Instrument Sans', sans-serif;
-  }
-
-  .course-list {
-    display: flex;
-    flex-direction: column;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
   .course-item {
-    padding: 14px 16px 14px 20px !important;
+    padding: 20px 20px 20px 24px !important;
     border-left: 2px solid var(--global-theme-color) !important;
     border-bottom: 1px solid var(--global-divider-color) !important;
     border-top: none !important;
@@ -358,16 +339,17 @@
     background: transparent !important;
     box-shadow: none !important;
     min-height: unset !important;
-    transition: border-left-color 0.15s, background 0.15s;
+    transition: background 0.15s;
     &:hover {
       background: rgba(24, 95, 165, 0.04) !important;
     }
   }
 
   .course-title {
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin: 0 0 6px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0 0 10px;
     a {
       color: var(--global-text-color);
       text-decoration: none;
@@ -375,34 +357,23 @@
     }
   }
 
-  .course-meta {
+  .course-terms {
     display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 6px;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
   }
-   .course-terms {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 6px;
-     margin-bottom: 6px;
-   }
-   
-   .course-term-tag {
-     display: inline-block;
-     font-size: 0.62rem;
-     letter-spacing: 0.08em;
-     text-transform: uppercase;
-     font-weight: 600;
-     color: var(--global-theme-color);
-     border: 1px solid var(--global-theme-color);
-     border-radius: 2px;
-     padding: 2px 8px;
-   }
 
-  .course-instructor {
-    font-size: 0.75rem;
-    color: var(--global-text-color-light);
+  .course-term-tag {
+    display: inline-block;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 2px;
+    padding: 2px 8px;
   }
 
   .course-description {
@@ -410,5 +381,6 @@
     color: var(--global-text-color-light);
     line-height: 1.6;
     margin: 0;
+    p { margin: 0; }
   }
 }
