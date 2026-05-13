@@ -381,18 +381,24 @@
     gap: 8px;
     margin-bottom: 6px;
   }
-
-  .course-term {
-    display: inline-block;
-    font-size: 0.62rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--global-theme-color);
-    border: 1px solid var(--global-theme-color);
-    border-radius: 2px;
-    padding: 2px 8px;
-  }
+   .course-terms {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 6px;
+     margin-bottom: 6px;
+   }
+   
+   .course-term-tag {
+     display: inline-block;
+     font-size: 0.62rem;
+     letter-spacing: 0.08em;
+     text-transform: uppercase;
+     font-weight: 600;
+     color: var(--global-theme-color);
+     border: 1px solid var(--global-theme-color);
+     border-radius: 2px;
+     padding: 2px 8px;
+   }
 
   .course-instructor {
     font-size: 0.75rem;
