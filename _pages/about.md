@@ -42,7 +42,8 @@ latest_posts:
 
 <section class="about-section">
   <div class="section-label"><span>Bio</span></div>
-  <p class="about-bio">I am an Assistant Professor in the School of Computer Science and Technology at Shandong University, and a member of the Institute of Intelligent Computing and the Blockchain & Distributed Security Laboratory. I received my Ph.D. from Beijing Normal University in 2023. My research focuses on data elements, AI security, game theory, and blockchain, with the goal of addressing core challenges in distributed systems through rigorous theoretical modeling and innovative technical solutions. My work has been published in top venues including IEEE TMC, and I received the BWTAC 2024 Paper Incentive Award. I currently lead one NSFC Youth Fund project and one Shandong Province Youth Fund project, and serve as a reviewer for IEEE TMC, IEEE Infocom, HCC, JWCN, and WASA.</p>
+  <p class="about-bio">Kun Li is an Assistant Professor in the School of Computer Science and Technology at Shandong University, where she is affiliated with the Institute of Intelligent Computing and the Blockchain & Distributed Security Laboratory. She received her Ph.D. from Beijing Normal University in 2023. Her research lies at the intersection of data elements, AI security, game theory, and blockchain, with a focus on building rigorous theoretical foundations and practical mechanisms for trust, incentive, and privacy in distributed systems. Her work has appeared in premier venues including IEEE Transactions on Mobile Computing (TMC). She is the recipient of the BWTAC 2024 Paper Incentive Award and currently leads projects funded by the National Natural Science Foundation of China (NSFC) and the Shandong Province Natural Science Foundation. She serves on the review boards of IEEE TMC, IEEE Infocom, HCC, JWCN, and WASA.
+  </p>
 </section>
 
 <section class="about-section">
