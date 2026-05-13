@@ -80,8 +80,6 @@ calendar: false
   </table>
 </section>
 
-<hr class="section-divider">
-
 <section class="about-section">
   <div class="section-label"><span>Courses</span></div>
   {% include courses.liquid %}
