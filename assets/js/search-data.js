@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Courses, student supervision, and teaching activities at Shandong University.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
