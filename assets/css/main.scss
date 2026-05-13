@@ -415,19 +415,20 @@
   font-size: 0.82rem;
 
   thead tr {
-    background: var(--global-theme-color);
+    background: transparent;
   }
 
   thead th {
-    color: #fff;
+    color: var(--global-theme-color);
     font-size: 0.6rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 10px 14px;
+    padding: 0 14px 10px;
     text-align: left;
-    &:first-child { border-radius: 4px 0 0 4px; }
-    &:last-child { border-radius: 0 4px 4px 0; }
+    border-bottom: 2px solid var(--global-theme-color);
+    &:first-child { border-radius: 0; }
+    &:last-child { border-radius: 0; }
   }
 
   tbody tr {
