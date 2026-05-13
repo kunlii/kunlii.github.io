@@ -1,34 +1,25 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
-
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
-      <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
-          <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-            </h3>
-
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
-              {% endif %}
-
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
-              {% endif %}
-            </div>
-
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
-              </div>
-            {% endif %}
+    {% assign courses_by_title = site.teachings | group_by: 'title' %}
+    {% for course_group in courses_by_title %}
+      <div class="course-item">
+        <h3 class="course-title">
+          <a href="{{ course_group.items.first.url | relative_url }}">{{ course_group.name }}</a>
+        </h3>
+        <div class="course-terms">
+          {% assign sorted_items = course_group.items | sort: 'year' | reverse %}
+          {% for item in sorted_items %}
+            <span class="course-term-tag">
+              {% if item.term %}{{ item.term }}{% endif %}
+              {% if item.year %}{{ item.year }}{% endif %}
+            </span>
+          {% endfor %}
+        </div>
+        {% if course_group.items.first.description %}
+          <div class="course-description">
+            {{ course_group.items.first.description | markdownify }}
           </div>
-        {% endfor %}
+        {% endif %}
       </div>
     {% endfor %}
   </div>
