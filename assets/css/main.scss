@@ -414,26 +414,56 @@
   border-collapse: collapse;
   font-size: 0.82rem;
 
-  th {
+  thead tr {
+    background: var(--global-theme-color);
+  }
+
+  thead th {
+    color: #fff;
     font-size: 0.6rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--global-theme-color);
     font-weight: 600;
-    padding: 0 12px 10px 0;
-    border-bottom: 2px solid var(--global-theme-color);
+    padding: 10px 14px;
     text-align: left;
+    &:first-child { border-radius: 4px 0 0 4px; }
+    &:last-child { border-radius: 0 4px 4px 0; }
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--global-divider-color);
+    &:last-child { border-bottom: none; }
+    &:hover { background: rgba(24, 95, 165, 0.03); }
   }
 
   td {
-    padding: 10px 12px 10px 0;
-    border-bottom: 1px solid var(--global-divider-color);
+    padding: 11px 14px;
     color: var(--global-text-color);
     vertical-align: middle;
   }
 
-  tr:last-child td {
-    border-bottom: none;
+  .td-type {
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+
+  .td-pub {
+    color: var(--global-theme-color);
+    font-size: 0.78rem;
+  }
+
+  .td-year {
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .td-dest {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
   }
 }
 
