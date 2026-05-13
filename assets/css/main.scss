@@ -337,20 +337,37 @@
     color: var(--global-text-color-light);
     border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.5rem;
-    margin: 2rem 0 1.2rem;
+    margin: 3rem 0 1.2rem;
     font-family: 'Instrument Sans', sans-serif;
   }
 
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   .course-item {
-    padding: 14px 0;
-    border-bottom: 1px solid var(--global-divider-color);
-    &:first-child { border-top: 1px solid var(--global-divider-color); }
+    padding: 14px 16px 14px 20px !important;
+    border-left: 2px solid var(--global-theme-color) !important;
+    border-bottom: 1px solid var(--global-divider-color) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    min-height: unset !important;
+    transition: border-left-color 0.15s, background 0.15s;
+    &:hover {
+      background: rgba(24, 95, 165, 0.04) !important;
+    }
   }
 
   .course-title {
     font-size: 0.9rem;
     font-weight: 600;
-    margin: 0 0 4px;
+    margin: 0 0 6px;
     a {
       color: var(--global-text-color);
       text-decoration: none;
@@ -359,6 +376,25 @@
   }
 
   .course-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .course-term {
+    display: inline-block;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 2px;
+    padding: 2px 8px;
+  }
+
+  .course-instructor {
     font-size: 0.75rem;
     color: var(--global-text-color-light);
   }
@@ -366,7 +402,7 @@
   .course-description {
     font-size: 0.82rem;
     color: var(--global-text-color-light);
-    margin-top: 4px;
     line-height: 1.6;
+    margin: 0;
   }
 }
