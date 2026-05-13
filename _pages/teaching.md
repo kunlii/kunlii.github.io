@@ -10,62 +10,74 @@ calendar: false
 
 <section class="about-section">
   <div class="section-label"><span>Current Students</span></div>
-  <div class="cv-list">
-    <div class="cv-item">
-      <div>
-        <p class="cv-item-title">专硕</p>
-        <p class="cv-item-desc">大模型受广告影响</p>
-        <p class="cv-item-achievement">实验中</p>
-      </div>
-    </div>
-    <div class="cv-item">
-      <div>
-        <p class="cv-item-title">专硕</p>
-        <p class="cv-item-desc">隐私保护的数据评估</p>
-        <p class="cv-item-achievement">BWTAC 2025</p>
-      </div>
-    </div>
-    <div class="cv-item">
-      <div>
-        <p class="cv-item-title">学硕</p>
-        <p class="cv-item-desc">满足差分隐私的水印保护技术</p>
-        <p class="cv-item-achievement">研究中</p>
-      </div>
-    </div>
-  </div>
+  <table class="student-table">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Research</th>
+        <th>Publications</th>
+        <th>Since</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="student-degree">专硕</span></td>
+        <td>大模型受广告影响</td>
+        <td class="student-pubs">实验中</td>
+        <td class="student-year">2023</td>
+      </tr>
+      <tr>
+        <td><span class="student-degree">专硕</span></td>
+        <td>隐私保护的数据评估</td>
+        <td class="student-pubs">BWTAC 2025</td>
+        <td class="student-year">2023</td>
+      </tr>
+      <tr>
+        <td><span class="student-degree">学硕</span></td>
+        <td>满足差分隐私的水印保护技术</td>
+        <td class="student-pubs">研究中</td>
+        <td class="student-year">2024</td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
 <section class="about-section">
   <div class="section-label"><span>Alumni</span></div>
-  <div class="cv-list">
-    <div class="cv-item">
-      <div>
-        <p class="cv-item-title">专硕</p>
-        <p class="cv-item-sub">某市烟草局</p>
-        <p class="cv-item-desc">区块链交易费率机制设计</p>
-        <p class="cv-item-achievement">BWTAC2024</p>
-      </div>
-      <span class="cv-item-year">2025</span>
-    </div>
-    <div class="cv-item">
-      <div>
-        <p class="cv-item-title">专硕</p>
-        <p class="cv-item-sub">待定</p>
-        <p class="cv-item-desc">大模型身份混淆</p>
-        <p class="cv-item-achievement">TPDS投稿中</p>
-      </div>
-      <span class="cv-item-year">2026</span>
-    </div>
-    <div class="cv-item">
-      <div>
-        <p class="cv-item-title">专硕</p>
-        <p class="cv-item-sub">待定</p>
-        <p class="cv-item-desc">数据评估交易</p>
-        <p class="cv-item-achievement">一套数据评估代码库，专利申请中</p>
-      </div>
-      <span class="cv-item-year">2026</span>
-    </div>
-  </div>
+  <table class="student-table">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Research</th>
+        <th>Publications</th>
+        <th>Destination</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="student-degree">专硕</span></td>
+        <td>区块链交易费率机制设计</td>
+        <td class="student-pubs">BWTAC 2024</td>
+        <td>某市烟草局</td>
+        <td class="student-year">2025</td>
+      </tr>
+      <tr>
+        <td><span class="student-degree">专硕</span></td>
+        <td>大模型身份混淆</td>
+        <td class="student-pubs">TPDS 投稿中</td>
+        <td>待定</td>
+        <td class="student-year">2026</td>
+      </tr>
+      <tr>
+        <td><span class="student-degree">专硕</span></td>
+        <td>数据评估交易</td>
+        <td class="student-pubs">专利申请中</td>
+        <td>待定</td>
+        <td class="student-year">2026</td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
 <hr class="section-divider">
