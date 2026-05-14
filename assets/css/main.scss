@@ -479,3 +479,9 @@
   color: var(--global-text-color-light);
   white-space: nowrap;
 }
+.social img {
+  object-fit: contain !important;
+  width: auto !important;
+  max-width: 32px !important;
+  max-height: 20px !important;
+}
