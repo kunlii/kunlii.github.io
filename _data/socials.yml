@@ -8,15 +8,15 @@ email: kunli@sdu.edu.cn # your email address
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+school: # can be any name here other than the ones already defined in the jekyll-socials plugin
   logo: https://raw.githubusercontent.com/kunlii/kunlii.github.io/main/assets/img/sdu.png
   title: Shandong University
   url: https://www.sdu.edu.cn/
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+iiclab: # can be any name here other than the ones already defined in the jekyll-socials plugin
   logo: https://raw.githubusercontent.com/kunlii/kunlii.github.io/main/assets/img/iiclogo.png
   title: Institute of Intelligent Computing
   url: https://iic.sdu.edu.cn/
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+blockchainlab: # can be any name here other than the ones already defined in the jekyll-socials plugin
   logo: https://raw.githubusercontent.com/kunlii/kunlii.github.io/main/assets/img/blockchain.png
   title: Blockchain and Distributed Security Lab
   url: https://bc.sdu.edu.cn/
