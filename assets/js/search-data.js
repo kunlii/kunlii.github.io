@@ -433,7 +433,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/rendercv/rendercv/%E6%9D%8E%E7%90%A8_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -447,7 +447,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.sdu.edu.cn/", "_blank");
+          window.open("https://bc.sdu.edu.cn/", "_blank");
         },
       },{
       id: 'light-theme',
