@@ -443,8 +443,22 @@ ninja.data = [{
           window.open("mailto:%6B%75%6E%6C%69@%73%64%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-school',
+        title: 'School',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.sdu.edu.cn/", "_blank");
+        },
+      },{
+        id: 'social-iiclab',
+        title: 'Iiclab',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://iic.sdu.edu.cn/", "_blank");
+        },
+      },{
+        id: 'social-blockchainlab',
+        title: 'Blockchainlab',
         section: 'Socials',
         handler: () => {
           window.open("https://bc.sdu.edu.cn/", "_blank");
